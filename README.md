@@ -13,6 +13,11 @@ This repository contains some recent research work on RL and Sequence Models
 
 #### Core of Idea
 
+#### Drawbacks
+1. Slow and Computationaly Expensive, thus NO real time control.
+2. Discretization of continous domain imposes upper bound to prediction precision.
 
 #### Questions
-Should we model RL as permutation invariant? Or in other words, does the order of state, action and reward matter in RL? If so, why do the authors trained on sequences of states, actions, and rewards treated interchangeably?
+1. Should we model RL as permutation invariant? Or in other words, does the order of state, action and reward matter in RL? If so, why do the authors trained on sequences of states, actions, and rewards treated interchangeably?
+
+
