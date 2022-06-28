@@ -8,7 +8,7 @@ This repository contains some recent research work on RL and Sequence Models
 **Paper** [Offline Reinforcement Learning as One Big Sequence Modeling Problem](https://proceedings.neurips.cc/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf)<br>
 **Author** Michael Janner, Qiyang (Colin) Li, and Sergey Levine<br>
 **Method** OFF-Policy / Model-Free<br>
-**Action** Discrete + Continuous <br>
+**Action** Discrete <br>
 **Code** [Original Implementation](https://github.com/jannerm/trajectory-transformer), [Better+Faster Implementation](https://github.com/Howuhh/faster-trajectory-transformer) <br>
 
 #### Core of Idea
