@@ -23,6 +23,10 @@
      $$P(s_{1:T}, a_{0:T}, r_{0:T}|s_0)$$
  
  - **Step 2: Planning**<br>
+     ![TT Planning](https://github.com/iamsiddhantsahu/RL-SequenceModels/blob/main/TT_Planning.png)
+     
+     - During planning we are trying to find trajectories that give us high reward (beam search) **AND** from the trajectories that the Trajectory Tranformer thinks are actually likely to be feasible trajectories.
+     - If we didn't have the second term in the equation, using beam-search as a reward-maximizing procedure would lead to a "Myopic" behaviour or in other words the model would prone towards having reward now then reward later.
 
 #### Drawbacks
 1. Slow and Computationaly Expensive, thus NO real time control.
